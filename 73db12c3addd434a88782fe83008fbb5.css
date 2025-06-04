@@ -1,0 +1,71 @@
+/* к нулевому заданию */
+
+body {
+    font-family: "Trebuchet MS";
+    font-size: 26px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.offer div {
+    width: 130px;
+    height: 130px;
+    margin:auto;
+    background-color: cadetblue;
+}
+
+.offer {
+    border: solid 2px black;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    padding: 15px;
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* к первому заданию */
+
+.offer div {border-radius:100%}
+.offer div {background-image: url(logo.PNG);}
+
+/* ко второму заданию */
+
+.offer div {background-image: url(icons3.jpg);}
+
+.icon1 {background-position: -43px -40px}
+.icon2 {background-position: -481px -40px}
+.icon3 {background-position: -116px -202px}
+
+/* к третьему заданию */
+
+header {
+    height: 200px;
+    background-image: url(intro.jpg);
+    background-size: contain;
+    background-color: #008dd5;
+}
+
+/* к четвертому заданию */
+
+header {
+    background-repeat: no-repeat;
+}
+
+/* к пятому заданию */
+
+h1 {
+    padding-bottom: 20px;
+    background-image: url(Star.png);
+    background-size: 10px;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    margin: 50px auto;
+    width: 390px;
+}
